@@ -1,7 +1,7 @@
-# OASIS Submission - Increasing Hatch Spacing in Alterating Layers
+# OASIS Submission - Alternating Order Hatching
 - **Author:** Harshil Patel
 - **Organization:** The Ohio State Center for Design & Manufacturing Excellence (CDME)
-- **Submission Name:** Increasing Hatch Spacing in Alterating Layers
+- **Submission Name:** Alternating Order Hatching
 
 ## Build & Run Instructions
 The following instructions should get you up and running:
@@ -13,8 +13,4 @@ The following instructions should get you up and running:
 6. You can then find the output .scn file in the location specified in the respective config file.
 
 ## Scanpath Overview
-Alternating hatch spacing between each layer, meaning first layer will use spacing size in configuration file and next layer will use increase it by a defined percentage, and repeat the pattern.
-
-
-## Excel File Changes
-A ninth tab titled `9.CustomParameters` (mind the spaces) must be added, and Cell C2 must contain a numerical value for the hatch space size increase by percentage between alternating layers. This is read in as a double, so decimals are allowed.  
+Alternating order hatching, meaning stripe 1 and then 3 and then 5, then when finished with odd stipes, go to 2 and then 4 and then 6.
